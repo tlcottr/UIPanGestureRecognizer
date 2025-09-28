@@ -8,9 +8,7 @@
 import UIKit
 
 final class RootViewController: UITableViewController {
-  private let demos: [(title: String, makeVC: () -> UIViewController)] = [
-    ("Draggable Card (inertia + threshold)", { DraggableCardViewController() }),
-  ]
+  private let demos: [(title: String, makeVC: () -> UIViewController)] = []
 
   override func viewDidLoad() {
     super.viewDidLoad()

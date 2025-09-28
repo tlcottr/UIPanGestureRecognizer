@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     guard let winScene = scene as? UIWindowScene else { return }
     let win = UIWindow(windowScene: winScene)
-    win.rootViewController = DraggableCardViewController() // or UINavigationController(rootViewController: RootViewController())
+      win.rootViewController = UINavigationController(rootViewController: PayViewController())
     win.makeKeyAndVisible()
     self.window = win
   }
